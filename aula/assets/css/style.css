@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+       
+
+p,h1{
+    font-size: 20px;
+    font-family: 'Architects Daughter', 'Courier New', Courier, monospace;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Architects Daughter', 'Courier New', Courier, monospace;
+}
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+body{
+   
+background: linear-gradient(45deg, #f88538,#DA1212,#9986c5);
+}
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Architects Daughter', 'Courier New', Courier, monospace;
+}
+
+#menu li a:hover {
+    color: rgb(255, 196, 0);
+}
+.container-1{
+    
+  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10 50px;
+    background-color: rgba(255, 196, 0, 0.548);
+}
+.container-2{
+    display: flex;    
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 50px;
+    background-color: rgba(255, 196, 0, 0.548);
+}
+.container-3{
+    display: flex;    
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 50px;
+
+}
+#form{
+    background-color: rgba(245, 245, 220, 0.164);
+color: aliceblue;
+}
