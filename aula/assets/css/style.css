@@ -101,4 +101,25 @@ background: linear-gradient(45deg, #f88538,#da1212be,#9986c5);
     height: 50px;
     padding: 0 30px;
  }
- 
+ #button{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Architects Daughter', 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, #fcff42, #f36f22);
+  
+    padding:15px;
+    text-shadow: 0px 1px 2px #000000;
+    padding:2.6px;
+    box-shadow: 0px 1px 5px #e91818;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+#button:hover{
+    opacity: 0.9;
+    background: linear-gradient(to bottom, #5A86FF, #335AD0);
+
+    box-shadow: 0px 1px 2px #000000;
+}
